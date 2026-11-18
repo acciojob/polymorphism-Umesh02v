@@ -14,8 +14,8 @@ satic clas Product{
 }
   public static void main(String[] args){
     Product p = new Product();
-    System.out.print("Product of two integer: "+p.product(10,20));
-    System.out.print("Product of three integer: "+p.product(10,20,30));
-    System.out.println("Product of two double values: " + p.product(2.5, 4.5));
+    System.out.print(p.product(10,20));
+    System.out.print(p.product(10,20,30));
+    System.out.println(p.product(2.5, 4.5));
   }
 }
