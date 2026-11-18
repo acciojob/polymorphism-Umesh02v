@@ -1,8 +1,8 @@
 package com.driver;
 
 public class Main {
-satic clas Product{
-  public int probuct(int x,int y){
+satic class Product{
+  public int product(int x,int y){
     return x*y;
 }
   public int product(int x,int y,int z){
@@ -14,8 +14,8 @@ satic clas Product{
 }
   public static void main(String[] args){
     Product p = new Product();
-    System.out.print(p.product(10,20));
-    System.out.print(p.product(10,20,30));
+    System.out.println(p.product(10,20));
+    System.out.println(p.product(10,20,30));
     System.out.println(p.product(2.5, 4.5));
   }
 }
